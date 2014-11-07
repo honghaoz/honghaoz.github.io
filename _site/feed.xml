@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Honghao Zhang / 張宏昊</title>
+    <description>Dedicated iOS Developer / Web Apprentice / Study for Interests</description>
+    <link>http://www.honghaoz.com</link>
+    <atom:link href="http://www.honghaoz.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Hello, my NEW page!</title>
+        <description>&lt;p&gt;Wow! Jekyll is AWESOME!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://www.honghaoz.com/HelloMyNewPage/</link>
+        <guid isPermaLink="true">http://www.honghaoz.com/HelloMyNewPage/</guid>
+      </item>
+    
+  </channel>
+</rss>
