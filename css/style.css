@@ -25,6 +25,11 @@ pre {
 	color: #E74247;
 }
 
+.string > a {
+	color: inherit;
+	text-decoration: none;
+}
+
 .number, .character {
 	color: #8983CD;
 }
