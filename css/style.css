@@ -65,7 +65,7 @@ a {
 	}
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 670px) {
 	body {
 		font-size: 13px;
 		line-height: 16px;
