@@ -40,8 +40,8 @@ struct Project {
     
     var tapTapHeartRate = (
         "Tap Tap Heart Rate",
-        "iOS application for meauring heart rate, foucs on simple and beautiful UI design.",
         "Objective-C",
+        "iOS application for meauring heart rate, foucs on simple and beautiful UI design.",
         appStore: "http://itunes.apple.com/app/id914222099",
         github: "http://github.com/honghaoz/Taptap-Heart-Rate-iOS",
         completed: true
@@ -49,8 +49,8 @@ struct Project {
     
     var uWaterlooCourseNotifier = (
         "UWaterloo Course Notifier",
-        "Web application looking up course schedules and get notified for course openings",
         "Python, Google App Engine",
+        "Web application looking up course schedules and get notified for course openings.",
         link: "http://uw.honghaoz.com/uw-cen",
         github: "http://github.com/honghaoz/UWaterloo-Utilities-GAE",
         completed: true

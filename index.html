@@ -23,24 +23,60 @@
 //  Created by Honghao Zhang on 2014-11-10.
 //  Copyright (c) 2014 HonghaoZ. All rights reserved.
 //  <span class="URLs"><a href="http://honghaoz.com">http://honghaoz.com</a></span>
-
-// Hey there, welcome to Honghao's website!
-// Under construction
-// Check back soon!
 </span>
 <span class="keyword">import</span> Honghao
 
 <span class="comment">// About Me</span>
 <span class="keyword">let</span> myName = <span class="string">"Honghao Zhang"</span> <span class="comment">//😃</span>
-
+<span class="keyword">var</span> currentLocation = <span class="string">"Toronto, ON, Canada"</span>
 <span class="keyword">let</span> graduate      = <span class="string">"<a href="http://uwaterloo.ca" target="_blank">University of Waterloo, Waterloo, Canada</a>"</span> <span class="comment">//👍</span>
 <span class="keyword">let</span> undergraduate = <span class="string">"<a href="http://www.seu.edu.cn/english" target="_blank">Southeast University, Nanjing, China</a>"</span> <span class="comment">//👌</span>
 
-<span class="keyword">var</span> currentLocation = <span class="string">"Toronto, ON, Canada"</span>
+<span class="comment">// Currently working as an intern iOS developer at Wattpad (<span class="URLs"><a href="http://honghaoz.com">http://wattpad.com</a></span>) Inc.</span>
 
-<span class="comment">// Current work as an intern iOS developer at Wattpad (<span class="URLs"><a href="http://honghaoz.com">http://wattpad.com</a></span>) Inc.</span>
+<span class="comment">// My Resume</span>
+<span class="keyword">var </span>resumeV8: <span class="otherClass">NSURL</span> = <span class="otherClass">NSURL</span>(string: <span class="string">""</span>)!
 
-<span class="keyword">var </span>socialNetworks = [
+<span class="comment">// My Projects</span>
+<span class="keyword">struct </span>Project {
+    <span class="keyword">var </span>uwInfoSession = (
+        <span class="string">"UW Info Session"</span>,
+        <span class="string">"Objective-C, Python, Google App Engine"</span>,
+        <span class="string">"iOS application for querying employer info sessions held in UWaterloo."</span>,
+        appStore: <span class="string">"<a href="http://itunes.apple.com/app/id837207884" target="_blank">http://itunes.apple.com/app/id837207884</a>"</span>,
+        github  : <span class="string">"<a href="http://github.com/honghaoz/UW-Info-Session-iOS" target="_blank">http://github.com/honghaoz/UW-Info-Session-iOS</a>"</span>,
+        completed: <span class="keyword">true</span>
+    )
+    
+    <span class="keyword">var </span>uwQuest = (
+        <span class="string">"UW Quest"</span>,
+        <span class="string">"Swift, Python"</span>,
+        <span class="string">"iOS application for querying Quest Student Information in UWaterloo. Include real-time class schedule, grades, personal information..."</span>,
+        github: <span class="string">"<a href="http://github.com/honghaoz/UW-Quest-iOS" target="_blank">http://github.com/honghaoz/UW-Quest-iOS</a>"</span>,
+        completed: <span class="keyword">false</span>
+    )
+    
+    <span class="keyword">var </span>tapTapHeartRate = (
+        <span class="string">"Tap Tap Heart Rate"</span>,
+        <span class="string">"Objective-C"</span>,
+        <span class="string">"iOS application for meauring heart rate, foucs on simple and beautiful UI design."</span>,
+        appStore: <span class="string">"<a href="http://itunes.apple.com/app/id914222099" target="_blank">http://itunes.apple.com/app/id914222099</a>"</span>,
+        github  : <span class="string">"<a href="http://github.com/honghaoz/Taptap-Heart-Rate-iOS" target="_blank">http://github.com/honghaoz/Taptap-Heart-Rate-iOS</a>"</span>,
+        completed: <span class="keyword">true</span>
+    )
+    
+    <span class="keyword">var </span>uWaterlooCourseNotifier = (
+        <span class="string">"UWaterloo Course Notifier"</span>,
+        <span class="string">"Python, Google App Engine"</span>,
+        <span class="string">"Web application looking up course schedules and get notified for course openings."</span>,
+        link  : <span class="string">"<a href="http://uw.honghaoz.com/uw-cen" target="_blank">http://uw.honghaoz.com/uw-cen</a>"</span>,
+        github: <span class="string">"<a href="http://github.com/honghaoz/UWaterloo-Utilities-GAE" target="_blank">http://github.com/honghaoz/UWaterloo-Utilities-GAE</a>"</span>,
+        completed: <span class="keyword">true</span>
+    )
+}
+
+<span class="comment">// Contact Me😄</span>
+<span class="keyword">var </span>contact = [
     <span class="string">"LinkedIn"</span>	   : <span class="string">"<a href="http://linkedin.com/in/honghaozhang" target="_blank">linkedin.com/in/honghaozhang</a>"</span>,
     <span class="string">"Github"</span>	   : <span class="string">"<a href="http://github.com/honghaoz" target="_blank">github.com/honghaoz</a>"</span>,
     <span class="string">"StackOverflow"</span>: <span class="string">"<a href="http://stackoverflow.com/users/3164091/honghao-zhang" target="_blank">stackoverflow.com/users/3164091/honghao-zhang</a>"</span>
