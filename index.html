@@ -21,6 +21,7 @@
 //  Honghao-page
 //
 //  Created by Honghao Zhang on 2014-11-10.
+//  Last updated on 2015-01-02.
 //  Copyright (c) 2014 HonghaoZ. All rights reserved.
 //  <span class="URLs"><a href="http://honghaoz.com">http://honghaoz.com</a></span>
 </span>
@@ -28,14 +29,12 @@
 
 <span class="comment">// About Me</span>
 <span class="keyword">let</span> myName = <span class="string">"Honghao Zhang"</span> <span class="comment">//😃</span>
-<span class="keyword">var</span> currentLocation = <span class="string">"Toronto, ON, Canada"</span>
+<span class="keyword">var</span> currentLocation = <span class="string">"Waterloo, ON, Canada"</span>
 <span class="keyword">let</span> graduate      = <span class="string">"<a href="http://uwaterloo.ca" target="_blank">University of Waterloo, Waterloo, Canada</a>"</span> <span class="comment">//👍</span>
 <span class="keyword">let</span> undergraduate = <span class="string">"<a href="http://www.seu.edu.cn/english" target="_blank">Southeast University, Nanjing, China</a>"</span> <span class="comment">//👌</span>
 
-<span class="comment">// Currently working as an intern iOS developer at Wattpad (<span class="URLs"><a href="http://honghaoz.com">http://wattpad.com</a></span>) Inc.</span>
-
 <span class="comment">// My Resume</span>
-<span class="keyword">var </span>resumeV8: <span class="otherClass">NSURL</span> = <span class="otherClass">NSURL</span>(string: <span class="string">"<a href="http://honghaoz.com/resume-honghao.pdf" target="_blank">http://honghaoz.com/resume-honghao.pdf</a>"</span>)!
+<span class="keyword">var </span>resume: <span class="otherClass">NSURL</span> = <span class="otherClass">NSURL</span>(string: <span class="string">"<a href="http://honghaoz.com/resume-honghao.pdf" target="_blank">http://honghaoz.com/resume-honghao.pdf</a>"</span>)!
 
 <span class="comment">// My Projects</span>
 <span class="keyword">struct </span>Project {
@@ -47,17 +46,26 @@
         github  : <span class="string">"<a href="http://github.com/honghaoz/UW-Info-Session-iOS" target="_blank">http://github.com/honghaoz/UW-Info-Session-iOS</a>"</span>,
         completed: <span class="keyword">true</span>
     )
+
+    <span class="keyword">var </span>dateFormatter = (
+        <span class="string">"Date Formatter app - Developer Utility"</span>,
+        <span class="string">"Swift"</span>, <span class="comment">// Swift is so AWESOME!!!</span>
+        <span class="string">"iOS application, handy developer tool for verifying ISO 8601 date format with reference"</span>,
+        appStore: <span class="string">"<a href="http://itunes.apple.com/app/id949590319" target="_blank">http://itunes.apple.com/app/id949590319</a>"</span>,
+        github  : <span class="string">"<a href="https://github.com/honghaoz/DateFormatter-iOS" target="_blank">https://github.com/honghaoz/DateFormatter-iOS</a>"</span>,
+        completed: <span class="keyword">true</span>
+    )
     
     <span class="keyword">var </span>uwQuest = (
         <span class="string">"UW Quest"</span>,
         <span class="string">"Swift, Python"</span>, <span class="comment">// I love Swift & Python!</span>
         <span class="string">"iOS application for querying Quest Student Information in UWaterloo. Include real-time class schedule, grades, personal information..."</span>,
         github: <span class="string">"<a href="http://github.com/honghaoz/UW-Quest-iOS" target="_blank">http://github.com/honghaoz/UW-Quest-iOS</a>"</span>,
-        completed: <span class="keyword">false</span>
+        completed: <span class="keyword">false</span> <span class="comment">// Still ongoing</span>
     )
     
     <span class="keyword">var </span>tapTapHeartRate = (
-        <span class="string">"Tap Tap Heart Rate"</span>, <span class="comment">// Pretty simple</span>
+        <span class="string">"Tap Tap Heart Rate"</span>, <span class="comment">// Beautiful UI :)</span>
         <span class="string">"Objective-C"</span>,
         <span class="string">"iOS application for meauring heart rate, foucs on simple and beautiful UI design."</span>,
         appStore: <span class="string">"<a href="http://itunes.apple.com/app/id914222099" target="_blank">http://itunes.apple.com/app/id914222099</a>"</span>,
@@ -77,6 +85,7 @@
 
 <span class="comment">// Contact Me😄</span>
 <span class="keyword">var </span>contact = [
+    <span class="string">"Email"</span>        : <span class="string">"<a href="mailto:honghao.zhang@uwaterloo.ca" target="_blank">honghao.zhang&#64;uwa<!-- stopping spammers! -->terloo.c<!-- stopping spammers! -->a</a>"</span>,
     <span class="string">"LinkedIn"</span>	   : <span class="string">"<a href="http://linkedin.com/in/honghaozhang" target="_blank">linkedin.com/in/honghaozhang</a>"</span>,
     <span class="string">"Github"</span>	   : <span class="string">"<a href="http://github.com/honghaoz" target="_blank">github.com/honghaoz</a>"</span>,
     <span class="string">"StackOverflow"</span>: <span class="string">"<a href="http://stackoverflow.com/users/3164091/honghao-zhang" target="_blank">stackoverflow.com/users/3164091/honghao-zhang</a>"</span>
