@@ -44,7 +44,7 @@
 }
 ```
 
-### Setup auto launch with `launchd`
+#### Setup auto launch with `launchd`
 1. Add plist file `com.homebridge.server.plist` in `~/Library/LaunchAgents`
 2. The content:
 ```plist
