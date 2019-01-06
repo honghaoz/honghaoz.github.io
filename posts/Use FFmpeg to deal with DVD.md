@@ -1,9 +1,12 @@
-# Extract audio from a DVD volume (.cdr)
+# Convert video or extract audio from a DVD volume (.cdr)
 
-1. Concatenate `VOB` files and save it to
-   Concatenate the desired VOB files into a single stream and mux them to MPEG-4:
+1. Concatenate `VOB` files and save as a new video file.
    ```bash
    $ ffmpeg -i concat:/Volumes/0/VIDEO_TS/VTS_01_1.VOB\|/Volumes/0/VIDEO_TS/VTS_01_2.VOB output.mp4
+   ```
+2. Concatenate `VOB` files and save as a new audio file.
+   ```bash
+   $ ffmpeg -i concat:/Volumes/0/VIDEO_TS/VTS_01_1.VOB\|/Volumes/0/VIDEO_TS/VTS_01_2.VOB output.mp2
    ```
 Reference: https://stackoverflow.com/a/8349419/3164091
 
