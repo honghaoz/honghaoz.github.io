@@ -1,3 +1,13 @@
+# How to check video infromations
+1. Run
+   ```
+   ffprobe input.mp4
+   ```
+   or
+   ```
+   ffmpeg -i input.avi
+   ```
+
 # Convert video or extract audio from a DVD volume (.cdr)
 
 1. Concatenate `VOB` files and save as a new video file.
@@ -91,4 +101,11 @@ Reference: https://stackoverflow.com/a/48131707/3164091
    ffmpeg -i DVD1.mp4 -ss 00:03:21.760 -t 00:04:20.000 2.mp4
    ```
    `-ss` option is for starting timestamp. If don't provide this option, it defaults to `0`.
+   
    `-t` option is for duration.
+References:
+   - https://superuser.com/a/974188/648563
+   - https://stackoverflow.com/a/36324719/3164091
+
+# How to extract audio from video file
+1. 
