@@ -107,5 +107,13 @@ References:
    - https://superuser.com/a/974188/648563
    - https://stackoverflow.com/a/36324719/3164091
 
-# How to extract audio from video file
-1. 
+# How to get audio encoding of a video file
+1. Run
+   ```
+   ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nokey=1:noprint_wrappers=1 input.mp4 
+   ```
+   The result
+   ```
+   aac
+   ```
+Reference: https://stackoverflow.com/a/35280871/3164091
