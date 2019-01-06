@@ -84,3 +84,11 @@ Reference: https://superuser.com/a/1215832/648563
       Longest track: 01
    ```
 Reference: https://stackoverflow.com/a/48131707/3164091
+
+# How to cut a video file
+1. Run command:
+   ```
+   ffmpeg -i DVD1.mp4 -ss 00:03:21.760 -t 00:04:20.000 2.mp4
+   ```
+   `-ss` option is for starting timestamp. If don't provide this option, it defaults to `0`.
+   `-t` option is for duration.
