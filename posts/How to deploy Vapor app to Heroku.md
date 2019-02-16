@@ -39,6 +39,11 @@
     
     `git push heroku master`
     
-    If not started, run `heroku ps:scale web=1`
+    If not started, run: `heroku ps:scale web=1`
     
-    `heroku open` to open the app
+    Open the app: `heroku open` 
+    
+8. Reverting your database
+    - To revert the last batch of migrations: `heroku run Run -- revert --yes --env production`
+    - To revert your entire database: `heroku run Run -- revert --all --yes --env production`
+    - Run migrations again: `heroku run Run -- migrate --env production`
