@@ -1,4 +1,0 @@
-# Clean local branches except "master"
-`git branch | grep -v -e 'master' | xargs git branch -D`
-
-grep -e "pattern1" -e "pattern2"
